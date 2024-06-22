@@ -40,7 +40,7 @@ const serviceFunction = async () => {
 
 These messages will be then managed by messaging handlers. When a new handler is added, in order to be handled, it need to be added to the `messageStream` in `/src/background/index.ts`
 
-When the service send a message, the handler will will check the `type` of the message and, if there is a match, it will execute the related code.
+When the service send a message, the handler will check the `type` of the message and, if there is a match, it will execute the related code.
 
 - Handlers are located in `/src/background/aMessaging.ts`.
 - Message types: `/src/shared/messages`
